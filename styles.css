@@ -38,16 +38,17 @@ section.home {
 }
 
 .home img {
-  width: 4 00px;
+  width: 200px;
   border-radius: 20px;
   transition: 1s ease;
 }
 
 .home img:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: 1s ease;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+
 }
 
 p {
